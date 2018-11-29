@@ -1,0 +1,3 @@
+Names	WT
+Percent	100
+EGFR	NA

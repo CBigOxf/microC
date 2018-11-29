@@ -1,0 +1,2 @@
+serviceClass: uk.ac.ox.it.cancer_model.client.ExperimentService
+path: 8093ADD029B8A4E4189DBA7DDB4F52E0.gwt.rpc

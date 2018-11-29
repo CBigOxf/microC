@@ -1,0 +1,2 @@
+Name	Init.	BC	Dif.Coef.	Consumption	Production
+Oxygen	0.04	0.04	1.0e-08	1.0e-03	0.0

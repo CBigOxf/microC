@@ -1,0 +1,2401 @@
+  <experiment name="EGF-R1.0e-5-ACT1.0e-5" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-5-ACT1.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-5-ACT2.5e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-5-ACT5.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-5-ACT1.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-5-ACT2.5e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-5-ACT5.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-4-ACT1.0e-5" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-4-ACT1.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-4-ACT2.5e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-4-ACT5.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-4-ACT1.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-4-ACT2.5e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-4-ACT5.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-4-ACT1.0e-5" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-4-ACT1.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-4-ACT2.5e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-4-ACT5.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-4-ACT1.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-4-ACT2.5e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-4-ACT5.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-4-ACT1.0e-5" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-4-ACT1.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-4-ACT2.5e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-4-ACT5.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-4-ACT1.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-4-ACT2.5e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-4-ACT5.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-3-ACT1.0e-5" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-3-ACT1.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-3-ACT2.5e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-3-ACT5.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-3-ACT1.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-3-ACT2.5e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R1.0e-3-ACT5.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-3-ACT1.0e-5" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-3-ACT1.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-3-ACT2.5e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-3-ACT5.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-3-ACT1.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-3-ACT2.5e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R2.5e-3-ACT5.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-3-ACT1.0e-5" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-5.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-3-ACT1.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-3-ACT2.5e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-3-ACT5.0e-4" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-4.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-3-ACT1.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT1.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-3-ACT2.5e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT2.5e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="EGF-R5.0e-3-ACT5.0e-3" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="3000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "EGF"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-EGF-R5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-EGF-ACT5.0e-3.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2+EGF.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="500"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-p53PTEN.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+

@@ -1,0 +1,4 @@
+Output	Input(Receptor)
+EGF	NA
+VEGF	NA
+Oxygen	NA

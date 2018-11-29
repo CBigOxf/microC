@@ -1,0 +1,1323 @@
+  <experiment name="O2-Cinit0.04-R1.0e-3-D1.0e-10" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.04-R1.0e-3-D1.0e-10.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.04.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.04-R1.0e-3-D1.0e-9" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.04-R1.0e-3-D1.0e-9.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.04.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.04-R1.0e-3-D1.0e-8" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.04-R1.0e-3-D1.0e-8.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.04.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.04-R5.0e-3-D1.0e-10" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.04-R5.0e-3-D1.0e-10.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.04.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.04-R5.0e-3-D1.0e-9" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.04-R5.0e-3-D1.0e-9.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.04.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.04-R5.0e-3-D1.0e-8" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.04-R5.0e-3-D1.0e-8.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.04.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.04-R1.0e-2-D1.0e-10" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.04-R1.0e-2-D1.0e-10.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.04.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.04-R1.0e-2-D1.0e-9" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.04-R1.0e-2-D1.0e-9.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.04.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.04-R1.0e-2-D1.0e-8" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.04-R1.0e-2-D1.0e-8.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.04.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.08-R1.0e-3-D1.0e-10" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.08-R1.0e-3-D1.0e-10.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.08.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.08-R1.0e-3-D1.0e-9" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.08-R1.0e-3-D1.0e-9.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.08.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.08-R1.0e-3-D1.0e-8" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.08-R1.0e-3-D1.0e-8.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.08.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.08-R5.0e-3-D1.0e-10" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.08-R5.0e-3-D1.0e-10.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.08.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.08-R5.0e-3-D1.0e-9" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.08-R5.0e-3-D1.0e-9.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.08.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.08-R5.0e-3-D1.0e-8" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.08-R5.0e-3-D1.0e-8.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.08.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.08-R1.0e-2-D1.0e-10" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.08-R1.0e-2-D1.0e-10.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.08.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.08-R1.0e-2-D1.0e-9" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.08-R1.0e-2-D1.0e-9.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.08.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.08-R1.0e-2-D1.0e-8" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.08-R1.0e-2-D1.0e-8.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.08.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.28-R1.0e-3-D1.0e-10" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.28-R1.0e-3-D1.0e-10.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.28.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.28-R1.0e-3-D1.0e-9" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.28-R1.0e-3-D1.0e-9.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.28.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.28-R1.0e-3-D1.0e-8" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.28-R1.0e-3-D1.0e-8.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.28.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.28-R5.0e-3-D1.0e-10" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.28-R5.0e-3-D1.0e-10.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.28.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.28-R5.0e-3-D1.0e-9" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.28-R5.0e-3-D1.0e-9.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.28.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.28-R5.0e-3-D1.0e-8" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.28-R5.0e-3-D1.0e-8.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.28.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.28-R1.0e-2-D1.0e-10" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.28-R1.0e-2-D1.0e-10.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.28.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.28-R1.0e-2-D1.0e-9" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.28-R1.0e-2-D1.0e-9.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.28.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+
+  <experiment name="O2-Cinit0.28-R1.0e-2-D1.0e-8" repetitions="10" runMetricsEveryStep="true">
+    <setup>random-seed new-seed
+setup</setup>
+    <go>go</go>
+    <timeLimit steps="2000"/>
+    <metric>count objects with [kind = "Cell"]</metric>
+    <metric>count objects with [my-fate = "Necrosis"]</metric>
+    <metric>[table:get substances-of-patch "Oxygen"] of patch 0 0 0</metric>
+    <enumeratedValueSet variable="the-diffusion-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/diffusion-parameters-O2-Cinit0.28-R1.0e-2-D1.0e-8.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intercellular-step">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-input-parameters-file">
+      <value value="&quot;parameters/sensitivity-analysis/input-parameters-O2-Cinit0.28.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-intracellular-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-cell-size">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-maximum-cell-count">
+      <value value="4000"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-associations-file">
+      <value value="&quot;parameters/sensitivity-analysis/associations-O2.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-initial-cell-count">
+      <value value="100"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-diffusion-step">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-sparse-grid">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-file-of-mutations">
+      <value value="&quot;parameters/sensitivity-analysis/mutations-EGFRp53.txt&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-batch-mode?">
+      <value value="false"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="the-reversible?">
+      <value value="true"/>
+    </enumeratedValueSet>
+  </experiment>
+

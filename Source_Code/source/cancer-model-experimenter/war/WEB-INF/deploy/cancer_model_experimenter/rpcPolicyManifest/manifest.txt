@@ -1,0 +1,3 @@
+# Module cancer_model_experimenter
+# RPC service class, partial path of RPC policy file
+uk.ac.ox.it.cancer_model.client.ExperimentService, 8093ADD029B8A4E4189DBA7DDB4F52E0.gwt.rpc

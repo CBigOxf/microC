@@ -1,0 +1,6 @@
+Input	Initial	Threshold
+DNA_damage	0.0	0.5
+EGFR_stimulus	0.0	2.5e-03
+TGFBR_stimulus	0.0	0.5
+FGFR3_stimulus	0.0	0.5
+Oxygen_supply	0.04	0.02
