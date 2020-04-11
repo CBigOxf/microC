@@ -148,7 +148,9 @@ public class Cancer_model_experimenter implements EntryPoint {
 				for (int i = 0; i < sliders.getLength(); i++) {
 					Node slider = sliders.getItem(i);
 					String id = ((Element) slider).getId();
-					if (!id.isEmpty() && !id.startsWith("gwt")) {
+					if (!id.isEmpty() && !id.startsWith("gwt") && !id.equals("agree")) {
+						// 10/4/2020 Ken Kahn added: && !id.equals("agree") 
+						// agree is the checkbox for agreeing to terms and conditions
 						parameterNames.add(id);
 					}
 				}
