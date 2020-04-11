@@ -878,6 +878,7 @@ to -READ-PARAMETERS-10
                set the-parameters
                    ( word "[" the-parameters "]" ) ]
                   [ print word "Error reading file: " "parameters.txt"
+                    print error-message
                     set stop-running
                         true ]
 end
