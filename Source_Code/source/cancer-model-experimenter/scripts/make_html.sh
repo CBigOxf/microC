@@ -21,7 +21,7 @@ fi
 count=$(ls $1/*/16_runs.txt | wc -l)
 
 if [ $count == 0 ] ; then
-   # too early not results ready yet
+   # too early no results ready yet
    exit 0 
 fi
 
