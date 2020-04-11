@@ -48,17 +48,16 @@ public class StaticPageServlet extends HttpServlet {
 			outputStream.print("An error occurred contacting the ARC computers: " + e.getMessage());
 			return;
 		}
+		if (extension.equalsIgnoreCase("html")) {
+			response.setContentType(HTML_CONTENT_TYPE);
+		} else {
+			response.setContentType(PLAIN_CONTENT_TYPE);
+		}
 		if (numberIndex > 0) {
 			String numberOfBatches = pathInfo.substring(1, numberIndex);
 			String uuid = pathInfo.substring(numberIndex + "batches-".length(), dotIndex);
-			if (extension.equalsIgnoreCase("html")) {
-				response.setContentType(HTML_CONTENT_TYPE);
-			} else {
-				response.setContentType(PLAIN_CONTENT_TYPE);
-			}
-			String remoteFileName = "/data/donc-onconet/share/cancer-outputs/" + uuid + "." + extension; // old
-																											// directory:
-																											// /home/donc-onconet/oucs0030
+			String remoteFileName = "/data/donc-onconet/share/cancer-outputs/" + uuid + "." + extension; 
+			// old directory: /home/donc-onconet/oucs0030
 			String command = "cd /data/donc-onconet/share/cancer/ && bash make_html.sh " + uuid + " " + numberOfBatches;
 			secureShell.execute(command);
 			if (!secureShell.copyRemoteFile(remoteFileName, outputStream) && extension.equals("log")) {
