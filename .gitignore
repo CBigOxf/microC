@@ -1,2 +1,4 @@
 
+test-classes/
+gwt-unitCache/
 Source_Code/source/cancer-model-experimenter/src/uk/ac/ox/it/cancer_model/server/SecureShell.java
