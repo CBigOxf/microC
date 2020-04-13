@@ -80,9 +80,6 @@ public class Cancer_model_experimenter implements EntryPoint {
 		RootPanel.get("experimentButtonContainer").add(experimentButton);
 		RootPanel.get("errorLabelContainer").add(errorLabel);
 
-		System.out.println("*****************************************");
-		System.out.println(RootPanel.get("agree"));
-
 		// Focus the cursor on the email field when the app loads
 		emailField.setFocus(true);
 		emailField.selectAll();
@@ -137,9 +134,11 @@ public class Cancer_model_experimenter implements EntryPoint {
 				errorLabel.setText("");
 				String emailAddress = emailField.getText().trim();
 				if (emailAddress.isEmpty()) {
-					Window.alert("Email address required!");
-					System.out.println("*****************************************");
-
+					Window.alert("Please enter your email address.");
+					return;
+				}
+			    if (RootPanel.get("agree").getElement().getPropertyString("checked").equals("false")) {
+					Window.alert("Please check the terms and conditions box.");
 					return;
 				}
 				ArrayList<String> parameterNames = new ArrayList<String>();
@@ -162,7 +161,6 @@ public class Cancer_model_experimenter implements EntryPoint {
 						numberOfReplicates = Math.round(sliderValue);
 					}
 				}
-				;
 				// Then, we send the input to the server.
 
 				experimentButton.setEnabled(false);
