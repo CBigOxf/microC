@@ -11,7 +11,7 @@
 # if an email address is provided then notify when clean up finished
 
 if [ "$4" == none ] ; then
-     cp clean_up.sh temp/clean_up_$1.sh
+    cp clean_up.sh temp/clean_up_$1.sh
 else
     echo "#SBATCH --mail-user=$4" > email_temp_file
     cat clean_up_part1.sh email_temp_file clean_up_part2.sh > temp/clean_up_$1.sh
@@ -35,6 +35,7 @@ while [ $INDEX -lt $2 ] ; do
 #      cp regulatoryGraphProcessed.html    batch_$INDEX/
       cd batch_$INDEX
       if [ "$3" == dev ] ; then
+         # dev version gets priority on ARC but is limited to 10 minute runs
          sbatch --partition=devel run_cancer_model_dev.sh $1 $2 $5
       else
          sbatch run_cancer_model.sh $1 $2 $5
