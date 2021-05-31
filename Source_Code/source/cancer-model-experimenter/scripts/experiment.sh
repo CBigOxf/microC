@@ -2,7 +2,7 @@
 
 # each experiment needs its own directory for input files and modified NLOGO file
 # $1 is the unique name of the experiment
-# $2 is the number of batches (16 replicates each) to run
+# $2 is the number of batches (48 replicates each) to run
 # $3 which ARC queue - if dev uses development queue and 10 minute max -- anything else is production queue
 # $4 email address for notifications (or none if none)
 # $5 3d (lower case) or nothing (for 2D)

@@ -143,7 +143,7 @@ public class Cancer_model_experimenter implements EntryPoint {
 				}
 				ArrayList<String> parameterNames = new ArrayList<String>();
 				NodeList<Element> sliders = RootPanel.getBodyElement().getElementsByTagName("input");
-				long numberOfReplicates = 16;
+				long numberOfReplicates = 48;
 				for (int i = 0; i < sliders.getLength(); i++) {
 					Node slider = sliders.getItem(i);
 					String id = ((Element) slider).getId();

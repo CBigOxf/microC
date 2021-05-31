@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # $1 is the unique name of the experiment
-# $2 is the number of batches (16 replicates each) to run
+# $2 is the number of batches (48 replicates each) to run
 # $3 should be either 2D or 3D
 
 # set the number of nodes to 1
 #SBATCH --nodes=1
 
-# set number of processes 16 per node
-#SBATCH --ntasks-per-node=16
+# set number of processes 48 per node
+#SBATCH --ntasks-per-node=48
 
 # set max wall time to 2 hour
 #SBATCH --time=00:09:00
@@ -25,9 +25,9 @@ module load netlogo
 netlogo-headless.sh \
 --model $SLURM_SUBMIT_DIR/cancer_$3.nlogo \
 --experiment multiple-runs \
---threads 16
+--threads 48
 
-cat log* > 16_runs.txt
+cat log* > 48_runs.txt
 
 rm log*
 

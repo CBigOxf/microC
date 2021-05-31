@@ -9,9 +9,9 @@ bash ../../netlogo-headless$3.sh \
 --model $SLURM_SUBMIT_DIR/cancer.nlogo$3 \
 --setup-file $SLURM_SUBMIT_DIR/run_experiment.xml \
 --experiment run-experiment \
---threads 16
+--threads 48
 
-cat log* > 16_runs.txt
+cat log* > 48_runs.txt
 
 cd ../..
 

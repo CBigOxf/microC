@@ -2,7 +2,7 @@
 
 # creates an HTML page from the logs of each replicate
 # $1 is the unique name of the experiment
-# $2 is the number of batches (16 replicates each) to run
+# $2 is the number of batches (48 replicates each) to run
 
 if [ -f /tmp/$1.log ] ; then
   # already finished 
@@ -16,7 +16,7 @@ fi
 
 log_count=$(ls $1/*/slurm-*.out | wc -l)
 
-count=$(ls $1/*/16_runs.txt | wc -l)
+count=$(ls $1/*/48_runs.txt | wc -l)
 
 if [ $log_count -gt 0 ] ; then
   echo "No errors have been encountered so far. " > /tmp/log_preface
@@ -32,7 +32,7 @@ if [ $count == 0 ] ; then
    exit 0 
 fi
 
-cat prefix.html $1/*/16_runs.txt postfix.html > ../cancer-outputs/$1.html
+cat prefix.html $1/*/48_runs.txt postfix.html > ../cancer-outputs/$1.html
 
 echo "Job completed. See <a href='${2}batches-${1}.html'>results</a>." > ../cancer-outputs/$1.log
 

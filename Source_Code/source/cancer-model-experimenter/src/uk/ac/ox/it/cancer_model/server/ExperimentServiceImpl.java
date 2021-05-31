@@ -37,7 +37,7 @@ public class ExperimentServiceImpl extends RemoteServiceServlet implements Exper
 			ArrayList<String> parameterNames, ArrayList<Double> parameterValues, HashMap<String, String> serverFiles,
 			boolean run3d, String host) throws IllegalArgumentException {
 		String uuid = UUID.randomUUID().toString();
-		String url = "http://" + host + "/microc/run/" + numberOfReplicates / 16 + "batches-" + uuid + ".html";
+		String url = "http://" + host + "/microc/run/" + numberOfReplicates / 48 + "batches-" + uuid + ".html";
 		String response = "Click on <a href='" + url
 				+ "' target='_blank'>this link</a> to see the results of the experiment.<br>";
 		if (email != null && !email.isEmpty()) {
@@ -76,7 +76,7 @@ public class ExperimentServiceImpl extends RemoteServiceServlet implements Exper
 				secureShell.uploadFile(entry.getValue(), experimentFolder + entry.getKey());
 			}
 			String command = "cd /data/donc-onconet/share/cancer/ && bash experiment.sh " + uuid + " "
-					+ numberOfReplicates / 16 + " " + queue + " " + email;
+					+ numberOfReplicates / 48 + " " + queue + " " + email;
 			if (run3d) {
 				command += " 3d";
 			}
