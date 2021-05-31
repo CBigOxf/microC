@@ -841,7 +841,7 @@
         };
         var add_footer = function () {
         	var footer = document.createElement('footer');
-        	footer.textContent = "Copyright © University of Oxford 2016. All rights reserved";
+        	footer.textContent = "Copyright © University of Oxford 2021. All rights reserved";
         	document.body.appendChild(footer);
         }
         var parameters_table = "<table class='parameters-table'><tr><th>Parameter</th><th>Value</th></tr>";
