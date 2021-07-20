@@ -26,7 +26,7 @@
 cd $SLURM_SUBMIT_DIR
 
 # load NetLogo
-module load netlogo
+module load NetLogo/6.0.4-64
 
 bash ../../netlogo-headless$3.sh \
 --model $SLURM_SUBMIT_DIR/cancer.nlogo$3 \
